@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HogDetails from "./HogDetails";
+import HogDetails from "./hogDetails";
 
 function HogCard({ hog }) {
   const [isHidden, setIsHidden] = useState(false);
